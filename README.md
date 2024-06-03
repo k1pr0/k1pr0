@@ -12,9 +12,8 @@
             margin: 0;
             padding: 0;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
-            height: 100vh;
         }
         .container {
             text-align: center;
@@ -23,6 +22,7 @@
             border-radius: 10px;
             width: 80%;
             max-width: 600px;
+            margin-top: 50px;
         }
         h1 {
             font-size: 2.5em;
@@ -39,6 +39,17 @@
         .contact-info {
             margin-top: 20px;
         }
+        .dashboard-link {
+            margin-top: 20px;
+        }
+        a {
+            color: #FFA500;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -51,7 +62,10 @@
         <p><strong>Pricing:</strong> 3000 Kenyan Shillings</p>
         <div class="contact-info">
             <p><strong>Contact us on WhatsApp:</strong></p>
-            <p><a href="https://wa.me/254729754649" style="color: #FFA500; text-decoration: none;">+254729754649</a></p>
+            <p><a href="https://wa.me/254729754649">+254729754649</a></p>
+        </div>
+        <div class="dashboard-link">
+            <a href="dashboard.html">Go to Dashboard</a>
         </div>
     </div>
 </body>
